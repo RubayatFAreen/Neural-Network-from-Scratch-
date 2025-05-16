@@ -39,9 +39,9 @@ A comprehensive, header-only C++ implementation of a fully-connected neural netw
 
 This project is organized around three core components:
 
-1. \`\`: Represents a fully-connected layer, encapsulating weights, biases, forward pass, and local δ computation for backprop.
-2. \`\`: Manages a sequence of `Layer`s, implements global forward/backward loops, training and evaluation routines.
-3. \`\`: MNIST-specific readers that parse the IDX binary format into `Eigen::VectorXd` and perform normalization & one-hot encoding.
+1.  Represents a fully-connected layer, encapsulating weights, biases, forward pass, and local δ computation for backprop.
+2.  Manages a sequence of `Layer`s, implements global forward/backward loops, training and evaluation routines.
+3.  MNIST-specific readers that parse the IDX binary format into `Eigen::VectorXd` and perform normalization & one-hot encoding.
 
 Key algorithms:
 
@@ -191,4 +191,3 @@ Distributed under the **MIT License**. See [LICENSE](LICENSE) for details.
 
 ---
 
-*Crafted with ❤️ to demystify neural networks in C++.*
